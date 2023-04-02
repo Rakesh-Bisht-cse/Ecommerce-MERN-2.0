@@ -9,6 +9,7 @@ import productRoutes from "./routes/productRoutes.js";
 import cors from "cors";
 import path from "path";
 
+const __dirname = path.resolve();
 //configure env
 dotenv.config();
 
